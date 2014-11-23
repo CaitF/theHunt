@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two:700,400|Roboto:500,300,500italic,300italic);
+
+*{
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     text-decoration: none;
+     list-style: none;
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+     font-weight: 300;
+     color: #403b3a;
+}    
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px;
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0;
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Lobster Two', cursive;
+	font-weight: 700;
+	color: #482545;
+}
+h1 {font-size: 36px;}
+h2 {font-size: 24px;}
+h3 {font-size: 20px;}
+h4 {font-size: 18px;}
+h5 {font-size: 14px;}
+
+em {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300italic;
+}
+
+a:link, a:visited {}
+a:hover, a:active {}
+
+/* Eggplant = #261725 #482545 */
+/* FeltGreen = #594E2C #495233*/
+/* RustyRed = #FFF0E0 #e3683d*/
+/* Cream = #E35C3D #f6f4ef*/
+/* DarkSlate = #403B3A #403b3a*/
+
+
+/* Eggplant = #482545 */
+/* FeltGreen = #495233 */
+/* RustyRed = #e3683d */
+/* Cream = #f6f4ef */
+/* DarkSlate = #403b3a */
+
+
+/******************************************
+/* HEADER                  
+/*******************************************/
+
+header {}
+header #logo {}
+header #logo img {}
+header ul {}
+header ul li {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    bottom: 35px;
+    left: 1000px;
+}
+header ul li a {}
+header ul li a img {}
+
+/******************************************
+/* NAV              
+/*******************************************/
+
+nav {
+position: relative;
+top: -40px;
+background-image: url("http://i1.minus.com/ibfRMJ9oJsEeOY.jpg");
+background-repeat: no-repeat;
+height: 300px;
+border-top: 46px solid #80A7AAAC;
+}
+nav ul {
+	list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    top: 5px;
+    left: 950px;
+}
+nav ul li a:link,
+nav ul li a:visited {}
+
+/******************************************
+/* CONTENT                   
+/*******************************************/
+
+#wrapper {
+	position: absolute;
+    top: 120px;
+    left:50%;
+    margin-left:-540px;
+    font-size: 12px;
+    line-height: 1;
+    max-width: 1020px;
+    margin-top: 35px;
+}
+#wrapper #content img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    /*background-image: url '\0028' attr(data-src) '\0029';*/
+}
+#wrapper #content .feature {
+    width: 300px;
+    height: 300px;
+}
+#wrapper #content .feature img {
+    height: 300px;
+    border-radius: 100%;
+}
+/*#wrapper #content img:nth-of-type(odd) {float: left;}
+#wrapper #content img:nth-of-type(even) {float: right;}
+#wrapper #content h2 {}
+#wrapper #content h2:nth-of-type(odd) {float: left;}
+#wrapper #content h2:nth-of-type(even) {float: left;}
+#wrapper #content p {}
+#wrapper #content p:nth-of-type(odd) {float: right;}
+#wrapper #content p:nth-of-type(even) {float: left;}*/
+
+#wrapper #content img:nth-of-type(odd) {position: relative; right: 100px; top: 150px;}
+#wrapper #content img:nth-of-type(even) {position: relative; left: 100px; top: 300px;}
+#wrapper #content h2 {}
+#wrapper #content h2:nth-of-type(odd) {position: relative; right: 100px; top: 150px;}
+#wrapper #content h2:nth-of-type(even) {position: relative; left: 100px; top: 300px;}
+#wrapper #content p {}
+#wrapper #content p:nth-of-type(odd) {position: relative; left: 100px; top: 300px;}
+#wrapper #content p:nth-of-type(even) {position: relative; right: 100px; top: 150px;}
+
+
+/******************************************
+/* FOOTER                  
+/*******************************************/
+
+footer {
+position: relative;
+top: 1700px;
+left: 50%;
+margin-left: -540px;
+max-width: 1020px;
+margin-top: 35px;
+margin-bottom: 100px;
+}
+footer a {}
