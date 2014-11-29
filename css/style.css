@@ -59,13 +59,6 @@ em {
 a:link, a:visited {}
 a:hover, a:active {}
 
-/* Eggplant = #261725 #482545 */
-/* FeltGreen = #594E2C #495233*/
-/* RustyRed = #FFF0E0 #e3683d*/
-/* Cream = #E35C3D #f6f4ef*/
-/* DarkSlate = #403B3A #403b3a*/
-
-
 /* Eggplant = #482545 */
 /* FeltGreen = #495233 */
 /* RustyRed = #e3683d */
@@ -139,22 +132,14 @@ nav ul li a:visited {}
 #wrapper #content .feature {
     width: 300px;
     height: 300px;
+    clear: both;
 }
 #wrapper #content .feature img {
     height: 300px;
     border-radius: 100%;
 }
-/*#wrapper #content img:nth-of-type(odd) {float: left;}
-#wrapper #content img:nth-of-type(even) {float: right;}
-#wrapper #content h2 {}
-#wrapper #content h2:nth-of-type(odd) {float: left;}
-#wrapper #content h2:nth-of-type(even) {float: left;}
-#wrapper #content p {}
-#wrapper #content p:nth-of-type(odd) {float: right;}
-#wrapper #content p:nth-of-type(even) {float: left;}*/
 
 #wrapper #content img:nth-of-type(odd) {position: relative; right: 57px; top: 200px;}
-}
 #wrapper #content img:nth-of-type(even) {position: relative; left: 100px; top: 300px;}
 #wrapper #content h2 {}
 #wrapper #content h2:nth-of-type(odd) {position: relative; left: 270px; bottom: 70px;}
